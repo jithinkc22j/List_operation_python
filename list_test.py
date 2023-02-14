@@ -28,3 +28,32 @@ print(list1[0:])
 print(list1[2:5:2])
 print(list1[:-3])
 print(list1[-1:])
+# Sort and reverse  functions
+L1 = [1, 7, 2, 3]
+L1.sort()
+print(L1)
+L1.reverse()
+print(L1)
+
+#Built in list functions
+L1 = ["a", "b", "c", 1, 2, 3]
+L2 = [4, 5, 6]
+L1.append(7)
+print(L1)
+L1.remove(3)
+print(L1)
+L1.extend(L2)
+print(L1)
+L1.pop(0)
+print(L1)
+print(L1[1])
+L1.insert(3, 8)
+print(L1)
+
+#Membership Operators in a List
+
+L = ["a", "b", "c", 1, 2, 3]
+print(2 in L)
+print("a" not in L)
+print(4 not in L)
+print("d" in L)
